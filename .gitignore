@@ -14,4 +14,7 @@ yarn-error.log
 /.idea
 /.vscode
 # Разрешаем добавление файла laravel.log
-!/storage/logs/laravel.log 
+!/storage/logs/laravel.log
+# Игнорируем файлы сессий
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep 
